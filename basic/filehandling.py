@@ -1,0 +1,10 @@
+f=open("haris.txt","w")
+f.write("hello\n")
+f.write("hi\n")
+x=["good morning\n","hello\n","hi\n"]
+f.writelines(x)
+print(f.writable())
+print(f.readable())
+f.seek(0)
+f.seek(9)
+f.close()
