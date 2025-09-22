@@ -1,5 +1,6 @@
-import tkinter as tk
-main=tk.Tk()
-main.title("My First")
-main.geometry("600x300")
+from tkinter import *
+main = Tk()
+main.title("My website")
+label1 = Label(main,)
+main.geometry("600x600")
 main.mainloop()
